@@ -1,8 +1,6 @@
 const inquirer = require("inquirer");
-const generateMarkdown = require("utils/generateMarkdown.js");
-
-
 const fs = require("fs");
+const generateMarkdown = require("/Users/allisonlewis/development/Homework/Good-README-Generator/utils/generateMarkdown.js");
 
 // array of questions for user
 const questions = [
@@ -13,7 +11,7 @@ const questions = [
 }, 
 {
     type:"input",
-    message:"What  is your project name?",
+    message:"What is your project name?",
     name:"title"
 },
 {
@@ -22,7 +20,7 @@ const questions = [
     name:"Description"
 },
 {   type:"input",
-    message:"Were there any other contributors on this project?",
+    message:"We're there any other contributors on this project?",
     name:"contribution"
 
 },
@@ -34,9 +32,9 @@ const questions = [
 {
     type:"input",
     message:"What is the usage of this project?",
-    name:"projectUsage"
+    name:"Usage"
 },{
-    type:"checkbox",
+    type:"input",
     message:"Select a license",
     options:["apache-2.0","MIT","ISC","GPL-License","LGL-License"],
     name:"License"
@@ -52,19 +50,19 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile (data) {
-    try  { fs.writeFile("README.MD",data)
-}
-    catch (err){
-        console.log (err);
+function writeToFile(data) {
+    try {
+        fs.writeFileSync("/Users/allisonlewis/development/Homework/Good-README-Generator/README.md", data)
     }
+    catch (err){}
 }
-function init() {
-    const answers =await inquirer.prompt(questions);
-const htmlString = generateMarkdown(answers);
-writeToFile(answers.name+ "README.md", htmlString)
-}
-
 // function to initialize program
-writeToFile(userAnswers)
+function init() {
+    inquirer.prompt(questions)
+        .then((response) => {
+            const createFile = generateMarkdown(response);
+            writeToFile(createFile);
+        })
+}
+// function call to initialize program
 init();

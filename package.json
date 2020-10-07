@@ -1,14 +1,25 @@
 {
-  "name": "static-site",
+  "name": "Good-README-Generator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allielewis07/Good-README-Generator.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+  "bugs": {
+    "url": "https://github.com/allielewis07/Good-README-Generator/issues"
+  },
+  "homepage": "https://github.com/allielewis07/Good-README-Generator#readme"
 }

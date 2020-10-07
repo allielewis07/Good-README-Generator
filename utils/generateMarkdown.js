@@ -25,7 +25,7 @@ function generateMarkdown(data) {
     ## Tests
       ${data.tests}
     ## Questions
-    [Link to Creator Github](https://github.com/${data.username})
+    [Link to Creator Github](https://github.com/${data.gitUserName})
     `)
 }
 module.exports = generateMarkdown;

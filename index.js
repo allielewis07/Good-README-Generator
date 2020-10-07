@@ -50,14 +50,14 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(data) {
+async function writeToFile(data) {
     try {
         fs.writeFileSync("/Users/allisonlewis/development/Homework/Good-README-Generator/README.md", data)
     }
     catch (err){}
 }
 // function to initialize program
-function init() {
+async function init() {
     inquirer.prompt(questions)
         .then((response) => {
             const createFile = generateMarkdown(response);

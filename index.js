@@ -1,5 +1,6 @@
 const inquirer = require("inquirer");
-const generateMarkdown = require(".utils/generateMarkdown");
+const generateMarkdown = require("utils/generateMarkdown.js");
+
 
 const fs = require("fs");
 
@@ -31,9 +32,18 @@ const questions = [
     name:"installation"
 },
 {
-    type:"input"
-    message:"What is the usage of this project?"
+    type:"input",
+    message:"What is the usage of this project?",
     name:"projectUsage"
+},{
+    type:"checkbox",
+    message:"Select a license",
+    options:["apache-2.0","MIT","ISC","GPL-License","LGL-License"],
+    name:"License"
+},{
+    type:"input",
+    message:"Have you put your project through any tests? If so what tests?",
+    name:"Test"
 }
 
 // Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -42,16 +52,19 @@ const questions = [
 ];
 
 // function to write README file
-function writeFile(fileName, data) {
-    const answer = await inquirer.prompt(questions);
-    const htmlString = generateMarkdown(answers);
-    writeFile(answers.name +".md",htmlstring)
+function writeToFile (data) {
+    try  { fs.writeFile("README.MD",data)
+}
+    catch (err){
+        console.log (err);
+    }
+}
+function init() {
+    const answers =await inquirer.prompt(questions);
+const htmlString = generateMarkdown(answers);
+writeToFile(answers.name+ "README.md", htmlString)
 }
 
 // function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
+writeToFile(userAnswers)
 init();

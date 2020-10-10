@@ -12,7 +12,7 @@ const questions = [
 {
     type:"input",
     message:"What is your project name?",
-    name:"title"
+    name:"Title"
 },
 {
     type:"input",
@@ -21,27 +21,27 @@ const questions = [
 },
 {   type:"input",
     message:"We're there any other contributors on this project?",
-    name:"contribution"
+    name:"Contributions"
 
 },
 {
     type:"input",
     message:"What are the installation instructions for this project?",
-    name:"installation"
+    name:"Installation"
 },
 {
     type:"input",
     message:"What is the usage of this project?",
     name:"Usage"
 },{
-    type:"input",
+    type:"checkbox",
     message:"Select a license",
-    options:["apache-2.0","MIT","ISC","GPL-License","LGL-License"],
+    choices:["apache-2.0","MIT","ISC","GPL-License","LGL-License"],
     name:"License"
 },{
     type:"input",
     message:"Have you put your project through any tests? If so what tests?",
-    name:"Test"
+    name:"Tests"
 }
 
 // Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions

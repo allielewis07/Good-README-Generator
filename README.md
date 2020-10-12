@@ -1,5 +1,4 @@
-# undefined
-# Welcome to undefined: 
+# Welcome to Good-READEME-Generator: 
 ## Description
 A generator that will produce questions with npm that will help you achieve a good READEME.md all you have to do is answer the following questions given.
 ## Table of Contents

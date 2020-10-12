@@ -21,7 +21,7 @@ const questions = [
 },
 {   type:"input",
     message:"We're there any other contributors on this project?",
-    name:"Contributions"
+    name:"Contributors"
 
 },
 {
@@ -34,9 +34,9 @@ const questions = [
     message:"What is the usage of this project?",
     name:"Usage"
 },{
-    type:"checkbox",
-    message:"Select a license",
-    choices:["apache-2.0","MIT","ISC","GPL-License","LGL-License"],
+    // type:"checkbox",
+    // message:"Select a license",
+    // choices:["apache-2.0","MIT","ISC","GPL-License","LGL-License"],
     name:"License"
 },{
     type:"input",

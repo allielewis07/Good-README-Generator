@@ -10,19 +10,17 @@ Navigate through the README Using the Table of Contents :
 * [Usage](#Usage)
 * [License](#License)
 * [Contributions](#Contributions)
-* [Badges](#Badges)
 * [Tests](#Tests)
 * [Questions](#Questions)
 ## Installation ${data.Instructions}
 ## Usage
 ${data.Usage}
 ## License
-${data.License}
+![badmath](https://img.shields.io/badge/license-${data.license}-green)
 ## Contributors
-  ${data.Contributors}
-## Badges${data.Badges}
+${data.Contributors}
 ## Tests
-  ${data.Tests}
+${data.Tests}
 ## Questions
 [Link to Creator Github](https://github.com/${data.gitUserName})
 `)

@@ -1,7 +1,7 @@
 # undefined
 # Welcome to undefined: 
 ## Description
-hrth
+A generator that will produce questions that will help you achieve a good READEME.md
 ## Table of Contents
 Navigate through the README Using the Table of Contents : 
 * [Installation](#Installation)
@@ -13,13 +13,13 @@ Navigate through the README Using the Table of Contents :
 * [Questions](#Questions)
 ## Installation undefined
 ## Usage
-h
+Homework
 ## License
-
+![badmath](https://img.shields.io/badge/license-undefined-green)
 ## Contributors
-  undefined
+No
 ## Badgesundefined
 ## Tests
-  h
+No
 ## Questions
-[Link to Creator Github](https://github.com/trh)
+[Link to Creator Github](https://github.com/Allielewis07)

@@ -8,7 +8,6 @@ Navigate through the README Using the Table of Contents :
 * [Usage](#Usage)
 * [License](#License)
 * [Contributions](#Contributions)
-* [Badges](#Badges)
 * [Tests](#Tests)
 * [Questions](#Questions)
 ## Installation undefined

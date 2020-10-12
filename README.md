@@ -1,7 +1,7 @@
 # undefined
 # Welcome to undefined: 
 ## Description
-A generator that will produce questions that will help you achieve a good READEME.md
+A generator that will produce questions with npm that will help you achieve a good READEME.md all you have to do is answer the following questions given.
 ## Table of Contents
 Navigate through the README Using the Table of Contents : 
 * [Installation](#Installation)
@@ -17,7 +17,7 @@ Homework
 ![badmath](https://img.shields.io/badge/license-undefined-green)
 ## Contributors
 No
-## Badgesundefined
+## Badges
 ## Tests
 No
 ## Questions

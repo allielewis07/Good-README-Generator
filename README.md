@@ -17,8 +17,8 @@ Homework
 ![badmath](https://img.shields.io/badge/license-undefined-green)
 ## Contributors
 No
-## Badgesundefined
 ## Tests
 No
 ## Questions
 [Link to Creator Github](https://github.com/Allielewis07)
+![Image of Game page](Assets/READEME-Example.png)

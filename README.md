@@ -9,17 +9,14 @@ Navigate through the README Using the Table of Contents :
 * [Contributions](#Contributions)
 * [Tests](#Tests)
 * [Questions](#Questions)
-## Installation undefined
+## Installation 
+Just use your terminal and type "node index.js" That will start the questions in your terminal. Fill out your answers and once finished you will have a proper READEME.md!
 ## Usage
 Homework
 ## License
 ![badmath](https://img.shields.io/badge/license-undefined-green)
 ## Contributors
 No
-<<<<<<< HEAD
-=======
-## Badges
->>>>>>> 21f2c1ce494e15e82405034641390228062bfdb2
 ## Tests
 No
 ## Questions
